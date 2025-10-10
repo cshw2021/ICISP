@@ -33,7 +33,7 @@ We will release the code and trained models.
 
 ## <a name='results'></a> 🔎 Results
 
-## <a name="citation"></a>📎 Citation
+## <a name="citation"></a>:smiley: Citation
 
 If you find the code helpful in your research or work, please cite our work.
 

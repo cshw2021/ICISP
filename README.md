@@ -23,13 +23,23 @@ We will release the code and trained models.
 
 ## 🔗 Contents
 
-- [ ] Datasets
-- [ ] Models
+- [x] [Datasets](#Datasets)
+- [x] [Models](#Models)
 - [ ] Testing
 - [ ] Training
 - [ ] [Results](#Results)
 - [x] [Citation](#Citation)
 - [ ] Acknowledgements
+
+## <a name="datasets"></a>📊 Datasets
+
+## <a name="models"></a>📊 Models
+| Rate Lambda | Link |
+|--------|------|
+|1   |  [model_1.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
+|1.5 |  [model_1.5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
+|2.5 |  [model_2.5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
+|5 |  [model_5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
 
 ## <a name='results'></a> 🔎 Results
 

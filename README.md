@@ -4,6 +4,7 @@
 
 #### 🔥🔥🔥 News
 
+- **2025-10-15:** The pretrained models are released.
 - **2025-10-09:** This repo is released.
 
 ---
@@ -19,7 +20,7 @@ We will release the code and trained models.
 
 ## ⚒️ TODO
 
-* [ ] Release code and pretrained models
+* [ ] Release code
 
 ## 🔗 Contents
 
@@ -32,6 +33,7 @@ We will release the code and trained models.
 - [ ] Acknowledgements
 
 ## <a name="datasets"></a>📊 Datasets
+We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) dataset and evaluate it on the [Kodak](https://r0k.us/graphics/kodak/) and [CLIC_2020](https://clic2025.compression.cc/) datasets.
 
 ## <a name="models"></a>📊 Models
 | Rate Lambda | Link |

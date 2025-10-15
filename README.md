@@ -30,7 +30,7 @@ We will release the code and trained models.
 - [ ] Training
 - [ ] [Results](#Results)
 - [x] [Citation](#Citation)
-- [ ] Acknowledgements
+- [ ] [Acknowledgements](#Acknowledgements)
 
 ## <a name="datasets"></a>📊 Datasets
 We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) dataset and evaluate it on the [Kodak](https://r0k.us/graphics/kodak/) and [CLIC_2020](https://clic2025.compression.cc/) datasets.
@@ -44,6 +44,8 @@ We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) datas
 |5 |  [model_5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
 
 ## <a name='results'></a> 🔎 Results
+
+[TBD]
 
 ## <a name="citation"></a>:smiley: Citation
 

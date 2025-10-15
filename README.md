@@ -20,6 +20,7 @@ We will release the code and trained models.
 ## ⚒️ TODO
 
 * [ ] Release code
+* [ ] Upload the latest paper to Arxiv
 
 ## 🔗 Contents
 

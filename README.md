@@ -16,10 +16,15 @@ We establish the above blocks as the main modules of the encoder-decoder, and to
 we develop a semantic-informed discriminator that uses implicit semantic priors from a pretrained DINOv2 encoder. 
 Experiments on popular benchmarks show that our method achieves competitive compression performance and has significantly fewer network parameters and floating point operations than the existing state-of-the-art.
 We will release the code and trained models.
+---
+>**Architecture:** We propose a lightweight model for image compression based on implicit semantic priors without adding extra parameters to the encoder or the decoder.
+<center>
+<img src="./assets/arch.png"  style="zoom: 10%;"/>
+</center>
 
 ## ⚒️ TODO
 
-* [ ] Release code
+* [x] Release code
 * [ ] Upload the latest paper to Arxiv
 
 ## 🔗 Contents

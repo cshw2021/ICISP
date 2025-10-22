@@ -163,7 +163,7 @@ class DINOv2(nn.Module):
             C = feature.shape[-1]
             feature = feature.permute(0, 2, 1).reshape(B, C, h // 14, w // 14).contiguous()
             outs.append(feature)
-        out = outs[0] #torch.cat((outs[0], outs[1]), dim=1)
+        out = torch.cat(outs, dim=1)
 
         return out
 

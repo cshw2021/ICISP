@@ -25,15 +25,29 @@ We will release the code and trained models.
 ## 🔗 Contents
 
 - [x] [Datasets](#Datasets)
+- [x] [Installation](#Installation) 
 - [x] [Models](#Models)
-- [ ] Testing
-- [ ] Training
+- [x] [Train and Test](#TrainAndTest)
 - [ ] [Results](#Results)
 - [x] [Citation](#Citation)
 - [ ] [Acknowledgements](#Acknowledgements)
 
 ## <a name="datasets"></a>📊 Datasets
 We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) dataset and evaluate it on the [Kodak](https://r0k.us/graphics/kodak/) and [CLIC_2020](https://clic2025.compression.cc/) datasets.
+
+## <a name="installation"></a>:wrench:Installation
+- Create and activate your environment
+  - `conda create -n your_env_name python=3.10.13`
+  - `conda activate your_env_name`
+- Install torch2.1.1+cu118
+  - `pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118`
+- Install compressai
+  - `pip install compressai`
+- Requirements
+  - `pip install tensorboard scipy opencv-python timm numpy`
+- Install ``causal_conv1d`` and ``mamba``
+  - `pip install https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.1.3.post1/causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl`
+  - `pip install https://github.com/state-spaces/mamba/releases/download/v1.1.1/mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl`
 
 ## <a name="models"></a>:dna:Models
 | Rate Lambda | Link |
@@ -42,6 +56,19 @@ We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) datas
 |1.5 |  [model_1.5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
 |2.5 |  [model_2.5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
 |5 |  [model_5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
+
+## <a name='trainandtest'></a>:computer:Train and Test
+:zap: Before training, please give the correct path and name of training/validation datasets in the file train.py (lines 235-242) and train_gan.py (lines 244-251).
+>**Trick:** Training more epochs can improve the compression performance of the ICISP model!
+- Stage 1: Train the distortion-oriented model
+  - `python train.py --cuda --N 64 --lambda 0.0067 --epochs 120 --lr_epoch 110 115 --save_path ./lambda_0.0067 --save`
+- Stage 2: Train the perception-oriented model
+  - `python train_gan.py --cuda --N 64 --epochs 50 --lr_epoch 40 45 --lr_epochDis 30 40 --rate_weight 2.5 --save_path ./rw_2.5 --save --checkpoint ./lambda_0.0067/0.0067checkpoint_best.pth.tar `
+
+:zap: Before testing, please give the correct path and name of testing datasets in the file eval.py (lines 75-77).
+- Test the model
+   - `python eval.py --cuda --lmbda 2.5 --checkpoint ./rw_2.5/2.5checkpoint_best.pth.tar`
+
 
 ## <a name='results'></a> 🔎 Results
 

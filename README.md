@@ -94,4 +94,4 @@ If you find the code helpful in your research or work, please cite our work.
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
-[TBD]
+Some codes are brought from [VMamba](https://github.com/MzeroMiko/VMamba) and [HiFiC](https://hific.github.io/). Thanks for their excellent works.

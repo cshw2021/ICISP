@@ -35,7 +35,7 @@ We will release the code and trained models.
 - [x] [Train and Test](#TrainAndTest)
 - [ ] [Results](#Results)
 - [x] [Citation](#Citation)
-- [ ] [Acknowledgements](#Acknowledgements)
+- [x] [Acknowledgements](#Acknowledgements)
 
 ## <a name="datasets"></a>📊 Datasets
 We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) dataset and evaluate it on the [Kodak](https://r0k.us/graphics/kodak/) and [CLIC_2020](https://clic2025.compression.cc/) datasets.
@@ -94,4 +94,4 @@ If you find the code helpful in your research or work, please cite our work.
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
-Some codes are brought from [VMamba](https://github.com/MzeroMiko/VMamba) and [HiFiC](https://hific.github.io/). Thanks for their excellent works.
+Some codes are brought from [TCM](https://github.com/jmliu206/LIC_TCM), [VMamba](https://github.com/MzeroMiko/VMamba), and [HiFiC](https://hific.github.io/). Thanks for their excellent works.

@@ -77,7 +77,15 @@ We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) datas
 
 ## <a name='results'></a> 🔎 Results
 
-[TBD]
+<details>
+<summary>&ensp;Quantitative Comparisons (click to expand) </summary>
+<p align="center">
+<img src="./assets/comparisons_CLIC2020.pdf" >
+<img src="./assets/comparisons_CLIC2020_2.pdf" >
+<img src="./assets/comparisons_Kodak.pdf" >
+</p>
+</details>
+
 
 ## <a name="citation"></a>:smiley: Citation
 

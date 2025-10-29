@@ -33,7 +33,7 @@ We will release the code and trained models.
 - [x] [Installation](#Installation) 
 - [x] [Models](#Models)
 - [x] [Train and Test](#TrainAndTest)
-- [ ] [Results](#Results)
+- [x] [Results](#Results)
 - [x] [Citation](#Citation)
 - [x] [Acknowledgements](#Acknowledgements)
 
@@ -80,9 +80,7 @@ We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) datas
 <details>
 <summary>&ensp;Quantitative Comparisons (click to expand) </summary>
 <p align="center">
-<img src="./assets/comparisons_CLIC2020.pdf" >
-<img src="./assets/comparisons_CLIC2020_2.pdf" >
-<img src="./assets/comparisons_Kodak.pdf" >
+<img src="./assets/quan_com.png" >
 </p>
 </details>
 

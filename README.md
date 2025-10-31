@@ -1,4 +1,4 @@
-# [NN 2025] A Lightweight Model for Perceptual Image Compression via Implicit Priors
+# A Lightweight Model for Perceptual Image Compression via Implicit Priors
 
 [Hao Wei](https://scholar.google.com.hk/citations?user=hhNFVW0AAAAJ&hl=zh-CN), Yanhui Zhou, Yiwen Jia, Chenyang Ge, [Saeed Anwar](https://scholar.google.com.hk/citations?user=vPJIHywAAAAJ&hl=zh-CN), [Ajmal Mian](https://scholar.google.com.hk/citations?user=X589yaIAAAAJ&hl=zh-CN).
 

@@ -91,11 +91,15 @@ We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) datas
 If you find the code helpful in your research or work, please cite our work.
 
 ```
-@article{wei2025lightweight,
-  title={A Lightweight Model for Perceptual Image Compression via Implicit Priors},
-  author={Wei, Hao and Zhou, Yanhui and Jia, Yiwen and Ge, Chenyang and Anwar, Saeed and Mian, Ajmal},
-  journal={arXiv preprint arXiv:2502.13988},
-  year={2025}
+@article{WEI2025108279,
+title = {A Lightweight Model for Perceptual Image Compression via Implicit Priors},
+author = {Hao Wei and Yanhui Zhou and Yiwen Jia and Chenyang Ge and Saeed Anwar and Ajmal Mian},
+journal = {Neural Networks},
+pages = {108279},
+year = {2025},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2025.108279},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608025011608},
 }
 ```
 

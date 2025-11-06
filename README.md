@@ -4,7 +4,7 @@
 
 #### 🔥🔥🔥 News
 
-- **2025-11-06:** We have uploaded the file [pyiqa_evaluation_metric.py](https://github.com/cshw2021/ICISP/blob/main/pyiqa_evaluation_metric.py) to help with the evaluation of the compression task.
+- **2025-11-06:** We have uploaded the file [pyiqa_evaluation_metric.py](https://github.com/cshw2021/ICISP/blob/main/pyiqa_evaluation_metric.py) to help with the evaluation.
 - **2025-11-03:** The paper is published online. [Please refer to it](https://www.sciencedirect.com/science/article/pii/S0893608025011608).
 - **2025-10-29:** The paper is accepted by Neural Networks.
 - **2025-10-09:** This repo is released.

@@ -3,7 +3,7 @@
 [Hao Wei](https://scholar.google.com.hk/citations?user=hhNFVW0AAAAJ&hl=zh-CN), Yanhui Zhou, Yiwen Jia, Chenyang Ge, [Saeed Anwar](https://scholar.google.com.hk/citations?user=vPJIHywAAAAJ&hl=zh-CN), [Ajmal Mian](https://scholar.google.com.hk/citations?user=X589yaIAAAAJ&hl=zh-CN).
 
 #### 🔥🔥🔥 News
-
+- **2026-03-13:** We have released the model without using implicit priors.
 - **2025-11-06:** We have uploaded the file [pyiqa_evaluation_metric.py](https://github.com/cshw2021/ICISP/blob/main/pyiqa_evaluation_metric.py) to help with the evaluation.
 - **2025-11-03:** The paper is published online. [Please refer to it](https://www.sciencedirect.com/science/article/pii/S0893608025011608).
 - **2025-10-29:** The paper is accepted by Neural Networks.
@@ -57,12 +57,12 @@ We train the ICISP on the [LSDIR](https://ofsoundof.github.io/lsdir-data/) datas
   - `pip install https://github.com/state-spaces/mamba/releases/download/v1.1.1/mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl`
 
 ## <a name="models"></a>:dna:Models
-| Rate Lambda | Link |
-|--------|------|
-|1   |  [model_1.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
+| Rate Lambda | using implicit priors | without implicit priors|
+|--------|------|------|
+|1   |  [model_1.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  | [model_1.pth](https://drive.google.com/drive/folders/1R4753QfhTQ-Z-pUkbZglLMrQOpfqC0Ye) |
 |1.5 |  [model_1.5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
-|2.5 |  [model_2.5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
-|5 |  [model_5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  |
+|2.5 |  [model_2.5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  | [model_2.5.pth](https://drive.google.com/drive/folders/1R4753QfhTQ-Z-pUkbZglLMrQOpfqC0Ye) |
+|5 |  [model_5.pth](https://drive.google.com/drive/folders/1VIr_8j4gy69C2M4-gmtxGDaRGnGdnp0P)  | [model_5.pth](https://drive.google.com/drive/folders/1R4753QfhTQ-Z-pUkbZglLMrQOpfqC0Ye) |
 
 ## <a name='trainandtest'></a>:computer:Train and Test
 :zap: Before training, please give the correct path and name of training/validation datasets in the file train.py (lines 235-242) and train_gan.py (lines 244-251).
